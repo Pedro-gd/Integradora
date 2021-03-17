@@ -19,10 +19,6 @@ class Actividad extends Eloquent{
         'Estatus_entrega',
         'Ultima_modificacion',
         'Fecha_entrega',
-        'Tiempo_restante',
-        'Fecha_envio',
-        'Retro_alimentacion',
-        'calificacion'
-        
+        'Tiempo_restante'
     ];
 }
