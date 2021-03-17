@@ -5,7 +5,7 @@ use Jenssegers\Mongodb\Eloquent\Model as Eloquent;
 /**
 * Descripción: Modelo para entregar de actividad del usuario 
 * Autor: Miguel Arturo Rojas Hernández
-* Fecha: 16/03/2021
+* Fecha: 17/03/2021
 */
 
 class Registro extends Eloquent{
