@@ -36,6 +36,27 @@ class User extends Authenticatable
         'confirmed',
         'confirmation_code',
     ];
+    /*Nuevo modelo..
+    Este modelo es el actual 17-03-2021. Pero no lo poner en funcionamiento, porque necesitaria modificar completamente el MVC. Ya tengo listo el push, para cuando
+    lo validen.
+    Mientras dejo evidencias.
+    protected $fillable = [
+        '_id',
+        'nombre',
+        'primer_apellido',
+        'segundo_apellido',
+        'correo_electronico',
+        'contrasena',
+        'nivel_educativo',
+        'institucion',
+        'rol',
+        'semestre',
+        'turno',
+        'status_usuario',
+        'confirmado',
+        'codigo_confirmacion',
+    ];
+    */
 
     /**
      * The attributes that should be hidden for arrays.
