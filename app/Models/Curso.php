@@ -4,9 +4,13 @@ namespace App\Models;
 use Jenssegers\Mongodb\Eloquent\Model as Eloquent;
 /**
 * Descripción: Administración de Cursos
-* Funcionalidades: Ingresar o Ver Curso
+* Funcionalidad: Ingresar o Ver Curso
 * Autor: Oscar David Castañeda Rivera
 * Fecha: 16/03/2021
+* Descripción: Administración de Cursos
+* Funcionalidad: Crear Curso
+* Autor: María Concepción Cárdenas Rincón
+* Fecha: 17/03/2021
 */
 class Curso extends Eloquent{
 	protected $connection = 'mongodb';
@@ -19,6 +23,11 @@ class Curso extends Eloquent{
      * @var array
      */
     protected $fillable = [
-        'nombre','inicio','fin',
+        'nombre_curso',
+        'no_parcial',
+        'activado',
+        'estado_curso',
+        'resumen_curso',
+        'fecha',
     ];
 }
