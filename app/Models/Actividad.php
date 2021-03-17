@@ -11,14 +11,13 @@ use Jenssegers\Mongodb\Eloquent\Model as Eloquent;
 class Actividad extends Eloquent{
 	protected $connection = 'mongodb';
     protected $collection = 'actividad';
-    protected $primaryKey = 'Id_actividad';
+
     protected $fillable = [
-        'Id_actividad',
-        'Estatus_calificacion',
-        'Nombre_actividad',
-        'Estatus_entrega',
-        'Ultima_modificacion',
-        'Fecha_entrega',
-        'Tiempo_restante'
+        'estatus_calificacion',
+        'nombre_actividad',
+        'estatus_entrega',
+        'ultima_modificacion',
+        'fecha_entrega',
+        'tiempo_restante'
     ];
 }
